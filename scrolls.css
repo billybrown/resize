@@ -1,0 +1,196 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.fl {float: left;} 
+.fr {float: right;}
+
+body {
+background: #000;
+text-align: center;
+font-family: vgNormal, Helvetica, Verdana;
+}
+
+@font-face {
+	font-family: vgNormal;
+	src: url('http://robobilly.com/scrolls/vgNormal.ttf');
+}
+
+#topPart {
+background: url(images/header_fullbg.png) -20% 0 repeat;
+height: 287px;
+width: 100%;
+padding-top: 1px;
+}
+
+.header {
+max-width: 800px;
+min-width: 180px;
+margin: 40px auto 50px;
+padding: 0px 20px;
+}
+
+.directionsBorder {
+background: url(images/header_bg.png) repeat;
+height: 164px;
+margin: 0 18px 0 140px;
+}
+
+.directions {
+padding: 27px 20px 0 20px;
+text-align: left;
+font-family: vgNormal, Helvetica, Verdana;
+}
+
+.directions p {
+color: #cee6f0;
+font-family: vgNormal, Helvetica, Verdana;
+font-size: 23px;
+letter-spacing:3px
+}
+
+
+.battletoads {
+margin-top: 313px;
+}
+
+.gunstarheroes {
+margin-top: 130px;
+}
+
+.sonic {
+}
+
+.scroll_1 {
+background: transparent url(images/battletoads_1.png) -20% 0 repeat-x;
+height: 60px;
+width: 100%;
+}
+
+.scroll_2 {
+background: transparent url(images/battletoads_2.png) -50% 0 repeat-x;
+height: 180px;
+width: 100%;
+}
+
+.scroll_3 {
+background: transparent url(images/battletoads_3.png) -110% 0 repeat-x;
+height: 200px;
+width: 100%;
+margin: -50px 0 0 0;
+}
+
+.scroll_char {
+background: transparent url(images/battletoads_char.png) center no-repeat;
+height: 200px;
+width: 100%;
+margin: -260px 0 0 0;
+}
+
+.gunstar_1 {
+background: transparent url(images/gunstar_1.png) right 0 no-repeat;
+height: 400px;
+width: 100%;
+margin: -481px 0px 0px 0px;
+}
+
+.gunstar_2 {
+background: transparent url(images/gunstar_2.png) -50% 0 repeat-x;
+height: 425px;
+width: 100%;
+margin: 0px 0px 0px 0px;
+}
+
+.gunstar_3 {
+background: transparent url(images/gunstar_3.png) -110% 0 repeat-x;
+height: 500px;
+width: 100%;
+margin: -393px 0px 0px 0px;
+}
+
+.gunstar_char1 {
+background: transparent url(images/gunstar_char.png) center no-repeat;
+height: 100px;
+width: 100%;
+margin: -152px 0px 0px 0px;
+}
+
+.gunstar_char2 {
+background: transparent url(images/gunstar_char2.png) 10% no-repeat;
+height: 100px;
+width: 100%;
+margin: -98px 0px 0px 0px;
+}
+
+.gunstar_char3 {
+background: transparent url(images/gunstar_char3.png) 20% no-repeat;
+height: 100px;
+width: 100%;
+margin: -390px 0px 0px 0px;
+position: relative; z-index: 5;
+}
+
+.gunstar_char4 {
+background: transparent url(images/gunstar_char3.png) 35% no-repeat;
+height: 100px;
+width: 100%;
+margin: -100px 0px 0px 0px;
+}
+
+
+
+/*Sonic*/
+
+.sonic_1 {
+background: transparent url(images/sonic_1.png) -20% 0 repeat-x;
+height: 138px;
+width: 100%;
+margin: 0px 0px 0px 0px;
+}
+
+.sonic_2 {
+background: transparent url(images/sonic_2.png) -40% 0 repeat-x;
+height: 86px;
+width: 100%;
+margin: -60px 0px 0px 0px;
+}
+
+.sonic_3 {
+background: transparent url(images/sonic_3.png) -10% 0 repeat-x;
+height: 144px;
+width: 100%;
+margin: -70px 0px 0px 0px;
+}
+
+.sonic_4 {
+background: transparent url(images/sonic_4.png) -60% 0 repeat-x;
+height: 200px;
+width: 100%;
+margin: 0px 0px 0px 0px;
+}
+
+.sonic_char1 {
+background: transparent url(images/sonic_char1.png) center no-repeat;
+height: 100px;
+width: 100%;
+margin: -212px 0px 0px 0px;
+}
+
+.sonic_char2 {
+background: transparent url(images/sonic_char2.png) 30% no-repeat;
+height: 100px;
+width: 100%;
+margin: -230px 0px 0px 0px;
+}
+
+.sonic_char3 {
+background: transparent url(images/sonic_char3.png) 10% no-repeat;
+height: 150px;
+width: 100%;
+margin: -27px 0px 0px 0px;
+}
+
+@media (max-width: 676px) {
+	.directions p {font-size: 15px;}
+}
